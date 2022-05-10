@@ -7,5 +7,9 @@ public class GuessNumber {
         // stores actual and guess number
         int answer, guess;
 
-    }
-}
+        // maximum value is 100
+        final int MAX = 100;
+        final int min = 0;
+        int mid = (min + MAX) / 2;
+
+
